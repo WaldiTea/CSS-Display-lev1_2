@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  height: 100vh;
+  background: url(../img/image.jpeg) no-repeat center/cover;
+}
+
+header nav ul {
+  background: black;
+  opacity: 0.7;
+  text-align: end;
+}
+
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 1.5rem;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+header nav ul li a:hover {
+  color: gray;
+  text-decoration: underline;
+}
